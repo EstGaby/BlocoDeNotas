@@ -1,7 +1,7 @@
 // Espera o conteúdo da página carregar completamente antes de executar o script.
 // É uma boa prática para evitar erros de JavaScript tentando acessar elementos
 // que ainda não existem na página.
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => { //Função seta, irá cair na prova, quando todo o conteúdo do DOM for carregado.
 
     // 1. SELECIONANDO O ELEMENTO
     // ----------------------------
